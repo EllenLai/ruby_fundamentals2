@@ -43,6 +43,9 @@ count_grocery(grocery_list)
 include_grocery(grocery_list)
 puts grocery_list[1]
 grocerydisplay(grocery_list.sort)
+grocery_list.delete("salmon")
+grocerydisplay(grocery_list)
+
 
 
 
