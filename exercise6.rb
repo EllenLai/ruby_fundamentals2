@@ -1,3 +1,4 @@
+
 grocery_list = ["carrots", "toilet paper", "apples", "salmon"]
 
 
@@ -16,9 +17,15 @@ def add_grocery(grocery_list, item)
 
 	end
 
+def count_grocery(grocery_list)
+	num = grocery_list.length
+	puts "You have #{num} grocery items"
+
+end
 
 
 add_grocery(grocery_list, "rice")
+count_grocery(grocery_list)
 
 
 
