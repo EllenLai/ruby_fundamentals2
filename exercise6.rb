@@ -23,9 +23,19 @@ def count_grocery(grocery_list)
 
 end
 
+def include_grocery(grocery_list)
+	if grocery_list.include? ("banana")
+		puts "You don't need to pick up bananas"
+	else
+		puts "You need to pick up bananas"
+	end
+end
+
+
 
 add_grocery(grocery_list, "rice")
 count_grocery(grocery_list)
+include_grocery(grocery_list)
 
 
 
