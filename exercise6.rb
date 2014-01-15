@@ -36,6 +36,7 @@ end
 add_grocery(grocery_list, "rice")
 count_grocery(grocery_list)
 include_grocery(grocery_list)
+puts grocery_list[1]
 
 
 
