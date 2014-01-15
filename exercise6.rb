@@ -31,12 +31,18 @@ def include_grocery(grocery_list)
 	end
 end
 
+def grocery_sort(grocery_list)
+	sorted_list = grocery_list.sort
+	grocerydisplay(sorted_list)
+end
+
 
 
 add_grocery(grocery_list, "rice")
 count_grocery(grocery_list)
 include_grocery(grocery_list)
 puts grocery_list[1]
+grocerydisplay(grocery_list.sort)
 
 
 
